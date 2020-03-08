@@ -1,0 +1,28 @@
+mat-sidenav-container{
+    height: 100%;
+    mat-sidenav{
+        background-color: #c0f38e;
+        width: 200px;
+        p{
+            border-bottom: dotted;
+            color: #1b888c;
+            font-size: larger;
+            font-family: sans-serif;
+            font-variant: small-caps;
+            -webkit-margin-end: 10px;
+            margin-bottom: 3em;
+            cursor: pointer;
+        }
+    }
+    mat-sidenav-content{
+        padding: 0 !important;
+        header{
+            background-color: lightgreen;
+            border: 0;
+            margin: 0;
+        }
+    }
+    mat-sidenav, mat-sidenav-content{
+        padding: 16px;
+    }
+}
