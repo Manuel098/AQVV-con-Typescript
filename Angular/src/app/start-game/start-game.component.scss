@@ -1,0 +1,42 @@
+#start{
+    position: fixed;
+    left: 47%;
+    right: auto;
+    width: 9em;
+    top: 33%;
+    height: 9em;
+    mat-icon{
+        font-size: 5em;
+        position: absolute;
+        left: 30px;
+        top: 29px;
+    }
+    img{
+        width: min-content;
+    }
+}
+mat-card{
+    width: 80%;
+    margin: auto;
+    margin-top: 2em;
+    mat-card-actions{
+        width: 100%;
+    }
+}
+div{
+    mat-card{
+        display: inline-block;
+        margin-left: 2em;
+    }
+}
+
+#result{
+    width: max-content;
+    img{
+        margin-top: 1em;
+        width: 250px;
+        margin: auto;
+        height: 300px;
+        border-radius: 35px;
+    }
+}

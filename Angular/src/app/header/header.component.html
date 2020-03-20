@@ -1,0 +1,14 @@
+<mat-sidenav-container>
+    <mat-sidenav mode="push" [(opened)]="opened">
+        <p (click)="route('')">Inicio</p>
+        <p (click)="route('start')">Iniciar Juego</p>
+        <p (click)="route('addPerson')">Personaje</p>
+        <a href=""></a>
+    </mat-sidenav>
+    <mat-sidenav-content>
+        <header>
+            <button mat-button color="primary" (click)="opened=!opened"><mat-icon>menu</mat-icon></button>
+        </header>
+        <div><router-outlet></router-outlet></div>
+    </mat-sidenav-content>
+</mat-sidenav-container>

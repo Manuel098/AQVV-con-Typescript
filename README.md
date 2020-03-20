@@ -1,27 +1,21 @@
-# AQTypeScript
+# Adivina quien
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.6.
+Este es un proyecto escolar en el cual el objetivo es realizar un adivina quién con javascript y typescript. En este caso se realizo con el apoyo de frameworks como angular y express además de la ampliación de una base de datos relacional como MySQL.
 
-## Development server
+## Installation
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Para instalar y poder ejecutar la aplicación es necesario contar con los puertos 4200 y 3000 libres además de contar con las tablas y base de datos necesarias estas las puedes observar en el archivo db.sql del proyecto de express en la carpeta database.
+Así mismo es necesario contar con al menos un registro en la tabla de usuarios y la tabla de characters.
 
-## Code scaffolding
+## Usage
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Para poder ejecutar el proyecto deberá correr los siguientes comandos.
 
-## Build
+```
+Express
+\Express>npm i --s
+\Express>npm run dev
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Angular
+\Angular>ng serve
+```
